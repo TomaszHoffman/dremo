@@ -1,0 +1,157 @@
+@import './variables.scss';
+
+body {
+  background: $main-gray;
+  font-family: 'Poppins', sans-serif;
+  color: black;
+  font-size: 16px;
+  
+}
+
+.color--main {
+  color: $main-blue;
+}
+
+.main__header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 52px;
+  position: relative;
+  
+
+  .header__row {
+    padding: 0 94px;
+  }
+
+  .header__logo {
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  .header__navigation {
+    margin-left: auto;
+  }
+
+  .navigation__list {
+    list-style-type: none;
+  }
+
+  .list__item {
+    padding: 12px 30px;
+    border-radius: 30px;
+    transition: 0.2s;
+    cursor: pointer;
+
+    &:hover {
+      background: $main-blue;
+      color: white;
+      box-shadow: 4px 20px 32px rgba(158, 175, 201, 0.2);
+    }
+  }
+}
+
+.hero {
+  margin-top: 112px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  
+  
+  .hero__img-fluid {
+  margin-top:34px;
+  display: inline-block;
+  width: inherit;
+  position: relative;
+
+  }
+
+  
+
+  .hero__search {
+    display: flex;
+    width: 768px;
+    justify-content: space-around;
+    height: 108px;
+    align-items: center;
+    text-align: left;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.3);
+    border-radius: 60px;
+    position: absolute;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    transform: translate(0px, 410px);
+    
+    
+    
+    
+
+    }
+
+    .selectpicker {
+      border: none;
+      background: none;
+      font-weight: 600;
+    }
+
+    .icon__wrapper {
+      padding-bottom: 15px;
+    }
+      
+  
+
+
+
+
+  .search__button {
+    background: $main-blue;
+    width: 54px;
+    height: 54px;;
+    border-radius: 10px;
+    border: none;
+    
+    
+  } 
+
+
+    .search__icon {
+      width: 30px;
+      
+    }
+
+}
+
+.process__text {
+  display: flex;
+  margin-top: 129px;
+  flex-direction: column;
+}
+.para-1 {
+  margin-top: 30px;
+}
+
+.process__cards {
+  margin-top: 73px;
+  display: inline-flex;
+  justify-content: center;
+  
+  
+}
+
+
+
+.card__one {
+  width: 266px;
+}
+
+.card__two {
+  width: 266px;
+}
+
+.card__three  {
+  width: 266px;
+}

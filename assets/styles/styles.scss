@@ -134,24 +134,30 @@ body {
   margin-top: 30px;
 }
 
-.process__cards {
+.process {
+  position: relative;
   margin-top: 73px;
-  display: inline-flex;
+  display: flex;
+  
+  align-items: center;
+  flex-direction: row;
+}
+
+.card__single {
   justify-content: center;
+  align-items: center;
+  width: 266px;
+  margin-left: 70px;
+  margin-top: 0px;
+  border-radius: 5px;
+  text-align: right;
+}
+
+.card__single--margin-top {
+  margin-top: 10px;
+}
+
+.card__body {
+  padding: 0px;
   
-  
-}
-
-
-
-.card__one {
-  width: 266px;
-}
-
-.card__two {
-  width: 266px;
-}
-
-.card__three  {
-  width: 266px;
 }

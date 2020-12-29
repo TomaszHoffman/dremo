@@ -6,7 +6,10 @@ body {
   color: black;
   font-size: 16px;
   
+  
 }
+
+
 
 .color--main {
   color: $main-blue;
@@ -109,11 +112,12 @@ body {
 
   .search__button {
     background: $main-blue;
+    background-position: 100%;
     width: 54px;
     height: 54px;;
     border-radius: 10px;
     border: none;
-    
+    margin: 0;
     
   } 
 
@@ -125,12 +129,15 @@ body {
 
 }
 
-
+.process {
+  margin-top: 110px;
+}
 
 
 .card__section{
   position: relative;
-  margin-top: 73px;
+  margin-top: 53px;
+  margin-left: 70px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -163,7 +170,7 @@ body {
   
 
  .card__single--margin-top {
-  margin-top: 0px;
+  margin-top: 70px;
   }
 
 
@@ -178,15 +185,296 @@ body {
   border-radius: 0px 30px 0px 0px;
   width: 50px;
   height: 53px;
-  transform: translate(0px, -73px);
+  transform: translate(0px, -53px);
   }
 
 
   .card__image {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
   }
 
  .card__image:hover {
   box-shadow: (0px 16px 24px rgba(112, 144, 176, 0.2));
   }
+}
+
+.book__section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top:  130px;
+  margin-left: 100px;
+  justify-content: space-around;
+ 
+
+}
+
+.book__section--left {
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+  
+}
+
+.book__section--right {
+  align-items: center ;
+}
+
+.book__header {
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+.book__para {
+  margin-left: 25px;
+}
+.book__image-1 {
+  width: 328px;
+  height:  313px;
+  transform: translate(330px, 10px);
+  z-index: 1;
+}
+
+.book__image-2 {
+  width: 654px;
+  margin-right: 0;
+}
+
+
+
+.book__btn {
+  background: $main-blue;
+  display: block;
+  width: 200px;
+  height: 73px;
+  border-radius: 50px;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 64px;
+  margin-left: 25px;
+  border-style: none;
+  
+}
+
+.book__icon {
+  width: 51px;
+  background: white;
+  color: #1a0b0b;
+  border-radius: 30px;
+  margin-left: 10px;
+  border: none;
+}
+
+
+.homes__section {
+  display: flex;
+  margin-top: 80px;
+}
+
+.home__section--right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+ 
+}
+
+.homes__header {
+  margin-left: 50px;
+  margin-bottom: 25px;
+}
+
+.book_para-2 {
+  margin-left: 50px;
+}
+
+.card__second-1 {
+ 
+  position: absolute;
+  margin-top: 276px;
+  margin-left: 30px;
+  box-shadow: (0px 16px 24px rgba(112, 144, 176, 0.2));
+  
+}
+.card__second-2 {
+  background: white;
+  position: absolute;
+  margin-left: 170px;
+  margin-top: -60;
+  z-index: 1;
+  box-shadow: (0px 16px 24px rgba(112, 144, 176, 0.2));
+}
+
+.card__second-3 {
+  
+  position: absolute;
+  margin-left: 320px;
+  margin-top: 276px;
+  box-shadow: (0px 16px 24px rgba(112, 144, 176, 0.2));
+}
+
+
+.card__icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  
+  
+}
+
+.card__second {
+  box-shadow: (0px 16px 24px rgba(112, 144, 176, 0.2));
+  
+}
+
+
+
+
+
+.card__second--title {
+  margin-top: 25px;
+  font-size: 18px;
+  margin-left: 12px;
+  font-weight: 600;
+  
+}
+
+.card___icon-item {
+  width:25px;
+  height: 25px;
+
+}
+
+.card__second--footer {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.card__button {
+  background: $main-blue;
+  color: white;
+  border-style: none;
+}
+
+.homes__btn {
+  background:none;
+  display: block;
+  width: 200px;
+  height: 73px;
+  border-radius: 50px;
+  border-color: $main-blue;
+  color:$main-blue;
+  border-style: solid;
+  border-color: $main-blue;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 64px;
+  margin-left: 25px;
+  padding-left: 5px;
+  
+}
+
+.homes__icon {
+  background: none;
+  border-radius: 50px;
+  color: #FFFFFF;
+}
+
+.sizer {
+  width: 400px;
+}
+
+.embed-wrapper {
+  margin-top: 350px;
+  overflow: hidden;
+  padding-top: 56.25%;
+  position: relative;
+}
+.embed-wrapper iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+.bluedots {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+.bigquote {
+  position: absolute;
+  margin-top: 200px;
+  background: rgba(148, 158, 210, 0.5);
+  margin-left: 1100px;
+}
+
+
+.reviews {
+  margin-top: 400px;
+  display: flex;
+  
+}
+
+.reviews-photos {
+  display: flex;
+
+}
+
+.woman-photo {
+  position: absolute;
+  margin-left: 70px;
+  width: 239px;
+  margin-top: 200px;  
+}
+
+.man-photo {
+  position: absolute;
+  margin-left: 315px;
+  
+}
+
+.reviews__credentials {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+ 
+  
+  
+}
+
+.reviews__header {
+  margin-left: 100px;
+}
+
+.reviews__para {
+  margin-left: 100px;
+  margin-top: 20px;
+
+}
+
+
+.reviews__card {
+  
+  position: relative;
+  margin-top: 10px;
+  margin-left: 90px;
+  padding: 30px;
+  box-shadow: (0px 16px 24px rgba(112, 144, 176, 0.2)); 
+  z-index:100;
+  
+}
+
+.reviews__dots {
+  position: absolute;
+  width: 250px;
+  margin-left: 600px;
+  margin-top: 100px;
+  z-index: -1;
+  
 }
